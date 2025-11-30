@@ -1,0 +1,196 @@
+/* =========================
+   全体レイアウト
+========================= */
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  background: #f5f4f0;
+}
+
+/* 中央に寄せるラッパ */
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  background: #fff;
+}
+
+/* タイトル & リード */
+h1 {
+  font-size: 22px;
+  margin: 0 0 4px;
+  text-align: center; /* ← 追加 */
+}
+p.explanation {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 16px;
+}
+
+.appLead {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #555;
+}
+.spotDetail__body,
+.spotDetail__short {
+  white-space: normal; /* 改行をCSS側で統一 */
+}
+
+/* =========================
+   ヒーロー写真
+========================= */
+
+.main-hero {
+  width: 100%;
+  max-width: 920px;
+  max-height: 460px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto 24px;
+  object-fit: cover;
+}
+
+/* =========================
+   地図エリア
+========================= */
+
+#map {
+  width: 100%;
+  max-width: 920px;
+  height: 340px;
+  margin: 0 auto 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================
+   詳細エリア
+========================= */
+
+.spotDetail {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px 18px 22px;
+  border-radius: 16px;
+  background: #fffaf5;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.04);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* 中で別スクロールはやめる（ページ全体でスクロール） */
+/* max-height / overflow-y は削除 */
+
+.spotDetail__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.spotDetail__short {
+  font-size: 14px;
+  color: #7F5539;
+  margin: 0 0 12px;
+}
+
+.spotDetail__thumb {
+  width: 100%;
+  max-width: 920px;     /* ← 900→920 に変更して統一 */
+  max-height: 460px;    /* ← メイン写真と同じ */
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 12px auto 14px;
+  display: block;
+}
+
+.spotDetail__body {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.spotDetail__tips {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.spotDetail__tips p {
+  margin: 0 0 4px;
+}
+
+/* Practical Info ボックス */
+.spotDetail__info {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #faf5ef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+}
+
+.spotDetail__infoTitle {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.spotDetail__infoList {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.spotDetail__infoList li {
+  margin-bottom: 4px;
+}
+
+.spotDetail__infoList strong {
+  font-weight: 600;
+}
+
+/* =========================
+   スマホ向け調整
+========================= */
+
+@media (max-width: 768px) {
+  .page {
+    padding: 16px 12px 32px;
+  }
+
+  h1 {
+    font-size: 18px;
+    text-align: center; /* ← 追加 */
+  }
+ p.explanation {
+    text-align: left;
+    max-width: 100%;
+  }
+  .appLead {
+    font-size: 13px;
+  }
+
+  .main-hero {
+    border-radius: 12px;
+    max-height: 320px;
+  }
+
+  #map {
+    height: 280px;
+    border-radius: 12px;
+  }
+ .spotDetail__thumb {
+    max-height: 320px;  /* ← メインと同じ */
+    border-radius: 10px;
+  }
+  .spotDetail {
+    padding: 16px 14px 18px;
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "siena": [
+    {
+      "id": "campo",
+      "name": "Piazza del Campo / カンポ広場",
+      "lat": 43.31851830812493,
+      "lng": 11.331580146916696,
+      "images": ["assets/img/siena/campoMain.jpeg"],
+      "short": "街が一度、呼吸を止める場所。",
+      "story": "扇のように広がるレンガの地面は、中心へ向かってわずかに傾いている。これは雨水を集めるための構造でありながら、かつては「人々の祈りと視線が集まる焦点」とも捉えられていた。中世の競馬《パリオ》が行われる舞台でありながら、朝の静かな時間帯には驚くほど深い静寂が広場を包む。足を一歩踏み入れた瞬間、空の奥行きと地面の沈黙が交差し、街全体がわずかに息を止めたように感じた。",
+      "photo_tip": "午前9〜10時頃。南東から入る斜光が傾斜を繊細に浮かび上がらせる。",
+      "walk_tip": "観光客が増える前の早時間帯が最適。",
+      "info": {
+        "ticket": "入場無料（広場）",
+        "time": "常時開放（イベント時は規制あり）",
+        "note": "パリオ開催期間（7月2日／8月16日）は一部立入制限あり。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    },
+    {
+      "id": "duomo",
+      "name": "Duomo di Siena / シエナ大聖堂",
+      "lat": 43.31764177595249,
+      "lng": 11.32880748452399,
+      "images": ["assets/img/siena/duomoMain.jpeg"],
+      "short": "白と黒の大理石が織りなす、シエナの“祈りの中心”。",
+      "story": "ファサードに刻まれた彫刻、白と黒の縞模様、内部へ入った瞬間に広がる静かな暗さ。シエナ大聖堂は、街の歴史と信仰が一度に押し寄せてくるような場所だ。",
+      "photo_tip": "午前中が理想。",
+      "walk_tip": "混雑前の朝一がベスト。",
+      "info": {
+        "ticket": "大聖堂＋図書館：約€15〜€20（季節変動）",
+        "time": "10:00〜19:00（冬季は〜17:30）",
+        "note": "公式サイトで事前確認推奨。ミサの時間は入場制限の可能性あり。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    },
+    {
+      "id": "fontebranda",
+      "name": "Fontebranda / フォンテブランダ",
+      "lat": 43.31932639894047,
+      "lng": 11.327691479089333,
+      "images": ["assets/img/siena/fontebrandaMain.jpeg"],
+      "short": "水と暮らしが重なり合う、街の“呼吸の源”。",
+      "story": "城壁に守られた湧水は、中世から市民の生活を支え続けてきた。",
+      "photo_tip": "午前〜昼前。自然光が◎",
+      "walk_tip": "早朝推奨。",
+      "info": {
+        "ticket": "無料",
+        "time": "24時間（夜間照明なし）",
+        "note": "周辺は住宅地のため、早朝または昼間の訪問が望ましい。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    },
+    {
+      "id": "backstreets",
+      "name": "Siena Backstreets / 路地裏エリア（象徴的スポット）",
+      "lat": 43.3188,
+      "lng": 11.3283,
+      "images": ["assets/img/siena/backstreetsMain.jpeg"],
+      "short": "位置よりも“街の気配”を感じる象徴的な路地。",
+      "story": "雨に濡れた石畳を歩いていると、足音が壁に反射し、自分だけが街と会話しているような感覚に。",
+      "photo_tip": "縦構図・雨上がり推奨",
+      "walk_tip": "目的地を決めずに歩くことが最適。",
+      "info": {
+        "ticket": "無料（街歩き）",
+        "time": "常時",
+        "note": "シエナの治安は良いが、夜間は人通りが少ないため注意は必要。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    },
+    {
+      "id": "torre_pubblico",
+      "name": "Torre del Mangia & Palazzo Pubblico / マンジャの塔・プブリコ宮殿",
+      "lat": 43.318089655530464,
+      "lng": 11.332131387289392,
+      "images": ["assets/img/siena/torrePubblicoMain.jpeg"],
+      "short": "高さ102mの塔から、街全体を一望。",
+      "story": "中世シエナ共和国の象徴。登頂には急な階段。",
+      "photo_tip": "夕暮れ時がベスト。",
+      "visit_tip": "予約推奨（混雑）。",
+      "info": {
+        "ticket": "塔のみ：約€10〜€15 / 宮殿内展示セット：約€20前後",
+        "time": "10:00〜19:00（冬は〜17:00）",
+        "note": "登頂は年齢制限・人数制限あり。（公式に確認）体力に不安がある人は登頂は避けた方が良い。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    },
+    {
+      "id": "piccolomini_library",
+      "name": "Libreria Piccolomini / ピッコロミニ図書館",
+      "lat": 43.31781295396153,
+      "lng": 11.32871257857326,
+      "images": ["assets/img/siena/piccolominiMain.jpeg"],
+      "short": "色彩と静寂が共存する、小さな空間。",
+      "story": "ピントゥリッキオによる鮮やかなフレスコ画が壁と天井を覆う。",
+      "photo_tip": "明るめに撮影。天井も入れる構図が◎",
+      "visit_tip": "入口が分かりづらいため注意。",
+      "info": {
+        "ticket": "大聖堂チケットに含まれる",
+        "time": "大聖堂と共通（10:00〜19:00など）",
+        "note": "入室制限あり。写真撮影は静かに行うこと。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    },
+    {
+      "id": "monte_paschi",
+      "name": "Banca Monte dei Paschi di Siena (Palazzo Salimbeni) / モンテ・デイ・パスキ銀行",
+      "lat": 43.32135510348069,
+      "lng": 11.330831682223137,
+      "images": ["assets/img/siena/montePaschiMain.jpeg"],
+      "short": "1472年創立。現存する世界最古の銀行のひとつ。",
+      "story": "金融と街の歴史が交差する空間。外観のみ見学可能。",
+      "photo_tip": "夕暮れ時が最適。",
+      "walk_tip": "周辺散策と合わせると◎",
+      "info": {
+        "ticket": "外観見学無料",
+        "time": "外観自由（内部は通常非公開）",
+        "note": "特別公開がある場合は公式情報を確認。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "reference_building"
+    },
+    {
+      "id": "facciatone",
+      "name": "Panorama dal Facciatone / ファサード展望",
+      "lat": 43.317386591356005,
+      "lng": 11.329890826131296,
+      "images": ["assets/img/siena/facciatoneMain.jpeg"],
+      "short": "シエナを最も高く見渡す展望台。",
+      "story": "14世紀に拡張予定だった未完大聖堂の跡。",
+      "photo_tip": "16〜18時がベスト。",
+      "visit_tip": "階段急。スニーカー推奨。",
+      "info": {
+        "ticket": "大聖堂共通券に含まれる（約€15〜€20）",
+        "time": "10:00〜18:00（季節変動）",
+        "note": "最大入場人数制限・天候により閉鎖される場合あり。"
+      },
+      "photoProcessing": "brightness-only",
+      "sourceType": "own_photo_raw"
+    }
+  ],
+  "milano": []
+}

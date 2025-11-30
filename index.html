@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ItalyTrip Explorer</title>
+
+  <!-- LeafletのCSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- アプリ用CSS -->
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="stylesheet" href="assets/styles/app.css">
+
+  <!-- LeafletのJS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+  <div class="page">
+  <h1>ItalyTrip Explorer – Siena</h1>
+   <p class="explanation">地図上のピンから、シエナの主要スポットを選び、旅の視点で読み解きます。</p>
+   <img src="assets/img/siena/sienaMain.jpeg" alt="シエナの街並み" class="main-hero">
+
+  <!-- 地図 -->
+  <div id="map"></div>
+
+  <!-- スポット詳細エリア -->
+  <section id="spotDetail" class="spotDetail">
+    <p>マップ上のピンをタップすると、ここにスポットの情報が表示されます。</p>
+  </section>
+
+  <!-- スクリプト -->
+  <script src="assets/js/app.js"></script>
+</div>
+</body>
+
